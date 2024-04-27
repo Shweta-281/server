@@ -5,6 +5,7 @@ const appointmentSchema = mongoose.Schema({
     type: String,
     default: "patient",
   },
+  
 
   patientID: {
     type: Number,
